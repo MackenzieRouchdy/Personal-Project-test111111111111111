@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5edf1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.3vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: beige;
+  border-radius: 10%;
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #d7e9f7, gray);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: black;
+  z-index: 99;
+}
+
+#sand ul li {
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1vh;
+}
+
+#sand ul li a {
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.personal_title {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  font-family: "oswald", sans-serif;
+  font-size: 42px;
+  border-right: black solid 1px;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.personal_text {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding-top: 2%;
+  padding-right: 50%;
+  text-indent: 45px;
+}
+
+.Product {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  font-family: "oswald";
+  font-size: 32px;
+}
+
+.product_text {
+  position: absolute;
+  left: 5%;
+  top: 52%;
+  padding-right: 50%;
+}
+
+.Journal {
+  position: absolute;
+  left: 5%;
+  top: 57%;
+  font-family: "oswald";
+  font-size: 32px;
+}
+
+.journal_text {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  padding-right: 50%;
+}
+
+.report {
+  position: absolute;
+  right: 30%;
+  top: 45%;
+  font-family: "oswald";
+  font-size: 32px;
+}
+
+.report_text {
+  position: absolute;
+  padding-right: 50px;
+  left: 64.5%;
+  top: 52%;
+  font-family: sans-serif;
+}
+
+.supervisor_text {
+  position: absolute;
+  padding-right: 200px;
+  left: 64.5%;
+  top: 65%;
+  font-family: sans-serif;
+}
+
+.light_bulb {
+  position: absolute;
+  top: 7%;
+  right: 10%;
+  width: 15%;
+  height: 30%;
+}

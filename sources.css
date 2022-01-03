@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  margin: 0%;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: black;
+  z-index: 99;
+}
+
+#sand ul li {
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1vh;
+}
+
+#sand ul li a {
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.container a {
+  margin-left: 5%;
+}
+
+h1 {
+  margin-left: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-family: "oswald", sans-serif;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  height: 15vh;
+  top: 450vh;
+  padding-bottom: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h3 {
+  position: relative;
+  left: 2%;
+  top: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 0px;
+  color: white;
+}
+
+footer h4 {
+  position: relative;
+  right: 2%;
+  top: 50%;
+  margin-left: 100px;
+  font-size: 14px;
+  font-family: cursive;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+.footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50%;
+  margin-top: 2%;
+  right: 50%;
+}
+
+.back_to_top {
+  font-size: 25px;
+  font-family: "oswald", sans-serif;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  margin-left: 48%;
+  background-color: yellow;
+  border-radius: 15%;
+  padding-right: 5px;
+  padding-left: 5px;
+  top: 446%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  background-color: lightgray;
+  width: 1.3vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+* {
+  height: min-content;
+}

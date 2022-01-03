@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.3vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #d7e9f7, gray);
+}
+
+li,
+a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.875rem;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: black;
+}
+
+#sand ul li {
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1vh;
+}
+
+#sand ul li a {
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 0.52vw;
+  padding-right: 0.52vw;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.My_name {
+  position: absolute;
+  top: 20vh;
+  left: 8vw;
+  font-family: "oswald", sans-serif;
+  border-bottom: solid black 1px;
+  padding-right: 2vw;
+  padding-bottom: 0.5vh;
+  font-size: 4.063rem;
+}
+
+.Who_am_I {
+  position: absolute;
+  top: 37vh;
+  left: 8vw;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+.Who_am_I_text {
+  position: absolute;
+  top: 45vh;
+  left: 8vw;
+  margin-right: 50vw;
+  font-size: 1.975rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 2.813rem;
+}
+
+.Why_website {
+  position: absolute;
+  top: 70vh;
+  left: 8vw;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+.Why_website_text {
+  position: absolute;
+  top: 78vh;
+  left: 8vw;
+  margin-right: 15vw;
+  font-size: 1.975rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 2.813rem;
+}
+
+.why_conspiracy {
+  position: absolute;
+  top: 95vh;
+  left: 8vw;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+.why_conspiracy_text {
+  position: absolute;
+  top: 103vh;
+  left: 8vw;
+  font-size: 1.975rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10vh;
+  text-indent: 2.813rem;
+  margin-right: 15vw;
+}
+
+.mackenzie {
+  position: absolute;
+  top: 20vh;
+  right: 20vw;
+  width: 18vw;
+  height: 45vh;
+  border-radius: 20%;
+  border: 5px solid black;
+  max-width: 100%;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  width: 100vw;
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 15vh;
+  top: 154vh;
+}
+
+footer h3 {
+  position: relative;
+  left: 2vh;
+  top: 50%;
+  padding-left: 2.604vw;
+  padding-right: 2.604vw;
+  font-size: 0.75rem;
+  font-family: sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50%;
+  margin-top: 2vh;
+  right: 50vw;
+}
+
+footer h4 {
+  position: relative;
+  right: 2vw;
+  top: 50%;
+  margin-left: 10.31vw;
+  font-size: 0.875rem;
+  font-family: cursive;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+footer a {
+  font-family: cursive;
+  font-size: 0.875rem;
+}
+
+* {
+  height: min-content;
+}

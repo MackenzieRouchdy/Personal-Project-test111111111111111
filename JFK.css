@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: black;
+  z-index: 99;
+}
+
+#sand ul li {
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1vh;
+}
+
+#sand ul li a {
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.jfk_title {
+  margin-top: 3%;
+  margin-left: 3%;
+  font-family: "oswald", sans-serif;
+  border-bottom: black 1px solid;
+}
+
+.jfk_motorcade_img {
+  margin-top: 2%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 85%;
+}
+
+.popular_opinion_title {
+  margin-top: 8%;
+  margin-left: 2%;
+  margin-right: 85%;
+  padding-bottom: 2%;
+  font-family: "oswald";
+  border-right: 3px black solid;
+}
+
+.popular_opinion_text {
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-indent: 45px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.magic_bullet_title {
+  margin-top: 3%;
+  margin-left: 65%;
+  font-family: "oswald", sans-serif;
+}
+
+.magic_bullet_img {
+  position: absolute;
+  left: 7%;
+  top: 198%;
+  width: auto;
+  height: 90%;
+}
+
+.magic_bullet_text {
+  margin-top: 2%;
+  margin-left: 55%;
+  margin-right: 5%;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.possilbe_theories_title {
+  position: absolute;
+  top: 285%;
+  left: 2%;
+  font-family: "oswald", sans-serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding-right: 2.5%;
+}
+
+.LBJ_title {
+  position: absolute;
+  top: 295%;
+  left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.LBJ_text {
+  margin-top: 22%;
+  margin-left: 5%;
+  margin-right: 35%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 45px;
+}
+
+.bullet {
+  position: absolute;
+  width: auto;
+  height: 25%;
+  transform: rotate(-90deg);
+  top: 140%;
+  right: 20%;
+}
+
+.CIA_title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.CIA_text {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 35%;
+}
+
+.CIA_logo_img {
+  position: absolute;
+  width: auto;
+  height: 25%;
+  right: 15%;
+  top: 330%;
+  border-radius: 10%;
+}
+
+.LBJ_img {
+  position: absolute;
+  width: auto;
+  height: 25%;
+  right: 5%;
+  top: 300%;
+  border-radius: 10%;
+}
+
+.plausible {
+  margin-left: 5%;
+  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plausible1_text {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 35%;
+  text-indent: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plausible2_text {
+  margin-top: 2%;
+  margin-right: 35%;
+  margin-left: 5%;
+  text-indent: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question_mark_img {
+  position: absolute;
+  width: auto;
+  height: 30%;
+  right: 15%;
+  top: 360%;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 15vh;
+  top: 390%;
+}
+
+footer h3 {
+  position: relative;
+  left: 2%;
+  top: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50%;
+  margin-top: 2%;
+  right: 50%;
+}
+
+footer h4 {
+  position: relative;
+  right: 2%;
+  top: 50%;
+  margin-left: 100px;
+  font-size: 14px;
+  font-family: cursive;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.black_line {
+  aspect-ratio: relative;
+  position: absolute;
+  height: 820px;
+  width: 1px;
+  left: 70px;
+  top: 294%;
+}
+
+.back_to_top {
+  font-size: 25px;
+  font-family: "oswald", sans-serif;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  margin-left: 48%;
+  background-color: yellow;
+  border-radius: 15%;
+  padding-right: 5px;
+  padding-left: 5px;
+  top: 386%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.3vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+* {
+  height: min-content;
+}

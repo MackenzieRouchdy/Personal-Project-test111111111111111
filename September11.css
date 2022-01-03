@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: black;
+  z-index: 99;
+}
+
+#sand ul li {
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1vh;
+}
+
+#sand ul li a {
+  justify-content: space-between;
+  margin-top: 1vh;
+  color: white;
+  font-family: "oswald", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#sand ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1.3vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.september_title {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: "oswald", sans-serif;
+  border-bottom: black 1px solid;
+}
+
+.building_destruction {
+  margin-top: 2%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 85%;
+}
+
+.the_popular_opinion {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 85%;
+  padding-bottom: 2%;
+  font-family: "oswald";
+  border-right: 3px black solid;
+}
+
+.popular_opinion_text {
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-indent: 45px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.memorial {
+  margin-top: 2%;
+  margin-left: 70%;
+  border-radius: 5%;
+  width: 25%;
+  height: 15%;
+}
+
+.possible_thoeries {
+  position: absolute;
+  top: 180%;
+  left: 2%;
+  font-family: "oswald", sans-serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding-right: 2.5%;
+}
+
+.hologram_title {
+  position: absolute;
+  top: 190%;
+  left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hologram_text {
+  position: absolute;
+  top: 195%;
+  left: 5%;
+  margin-right: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 45px;
+}
+
+.staged_title {
+  margin-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.staged_text {
+  margin-left: 5%;
+  margin-right: 35%;
+  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 45px;
+}
+
+.are_they_possible {
+  margin-left: 5%;
+  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.are_they_possible_text {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 35%;
+  text-indent: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question_leaner_img {
+  position: absolute;
+  right: 10%;
+  top: 230%;
+  width: 20%;
+  height: 35%;
+}
+
+.are_they_possible2 {
+  margin-top: 2%;
+  margin-right: 35%;
+  margin-left: 5%;
+  text-indent: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.black_line {
+  aspect-ratio: relative;
+  position: absolute;
+  height: 820px;
+  width: 1px;
+  left: 70px;
+  top: 189%;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+footer {
+  display: flex;
+  height: 15vh;
+  top: 275%;
+}
+
+footer h3 {
+  position: relative;
+  left: 2%;
+  top: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50%;
+  margin-top: 2%;
+  right: 50%;
+}
+
+footer h4 {
+  position: relative;
+  right: 2%;
+  top: 50%;
+  margin-left: 100px;
+  font-size: 14px;
+  font-family: cursive;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.back_to_top {
+  position: absolute;
+  color: black;
+  top: 269%;
+  margin-left: 48%;
+  background-color: yellow;
+  border-radius: 15%;
+  font-size: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+* {
+  height: min-content;
+}
