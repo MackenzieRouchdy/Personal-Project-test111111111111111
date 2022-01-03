@@ -819,6 +819,29 @@ button {
   max-width: 100%;
 }
 
+@media screen and (max-width: 1750px) {
+  .ornament_img {
+    margin-top: 503vh;
+  }
+}
+
+.ornament_imgfr {
+  margin-top: 443vh;
+  margin-left: 30vh;
+  z-index: 30;
+  width: auto;
+  height: 3%;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1750px) {
+  .ornament_imgfr {
+    margin-top: 503vh;
+  }
+}
+
+
 * {
   height: min-content;
 }
