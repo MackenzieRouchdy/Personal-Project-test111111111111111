@@ -809,6 +809,17 @@ button {
   filter: none;
 }
 
+@media screen and (max-width: 1900px) {
+  .cipher_img {
+    top: 765%;
+  }
+
+  .cipher_imgfr {
+    top: 765%;
+  }
+}
+
+
 * {
   height: min-content;
 }
