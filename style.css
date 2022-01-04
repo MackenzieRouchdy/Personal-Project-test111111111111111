@@ -758,8 +758,8 @@ button {
 
 .cipher {
   position: absolute;
-  top: 6700px;
-  left: 20%;
+  top: 6670px;
+  left: 8%;
   padding-left: 31.25em;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -779,12 +779,13 @@ button {
 
 .cipher_img {
   position: absolute;
-  top: 6600px;
-  left: 70%;
+  top: 670vh;
+  left: 65%;
   z-index: 30;
+  width: auto;
+  height: 35%;
   border-radius: 10px;
-  filter: blur(5px);
-  border: 5px solid black;
+  filter: blur(10px);
   max-width: 100%;
 }
 
@@ -794,11 +795,11 @@ button {
 
 .cipher_imgfr {
   position: absolute;
-  top: 95vh;
-  left: 70%;
+  top: 670vh;
+  left: 65%;
   z-index: 30;
   width: auto;
-  height: 25%;
+  height: 35%;
   border-radius: 10px;
   filter: blur(10px);
   max-width: 100%;
@@ -807,40 +808,6 @@ button {
 .cipher_imgfr:hover {
   filter: none;
 }
-
-.ornament_img {
-  position: absolute;
-  top: 650vh;
-  left: 15vw;
-  z-index: 30;
-  width: auto;
-  height: 25%;
-  border-radius: 50%;
-  max-width: 100%;
-}
-
-@media screen and (max-width: 1750px) {
-  .ornament_img {
-    margin-top: 503vh;
-  }
-}
-
-.ornament_imgfr {
-  margin-top: 443vh;
-  margin-left: 30vh;
-  z-index: 30;
-  width: auto;
-  height: 3%;
-  border-radius: 50%;
-  max-width: 100%;
-}
-
-@media screen and (max-width: 1750px) {
-  .ornament_imgfr {
-    margin-top: 553vh;
-  }
-}
-
 
 * {
   height: min-content;
