@@ -28,7 +28,7 @@ html::-webkit-scrollbar-track {
   top: 7030px;
   margin-left: 48%;
   background-color: yellow;
-  border-radius: 15%;
+  border-radius: 15px;
   padding-right: 0.3125em;
   padding-left: 0.3125em;
 }
@@ -59,9 +59,10 @@ header {
 
 #sand ul li {
   display: inline-flex;
-  padding-left: 5em;
-  padding-right: 1em;
+  padding-left: 8.4%;
+  padding-right: 2%;
   padding-bottom: 1vh;
+  transform: translateX(-20%);
 }
 
 #sand ul li a {
@@ -75,18 +76,14 @@ header {
   padding-right: 0.125em;
 }
 
+#sand ul li a img {
+  transform: translateY(-55%);
+}
+
 #sand ul li a:hover {
   color: black;
   background-color: white;
   border-radius: 15px;
-}
-
-@media (max-width: 500px) {
-  #sand ul li a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 .factorfake {
@@ -165,12 +162,12 @@ header {
   margin-left: 5.2em;
   font-family: "oswald", sans-serif;
   font-size: 2.813rem;
-  padding-top: 0.02em;
+  padding-top: 1em;
 }
 
 .The_September_11th_Attacks {
-  margin-left: 23%;
-  padding-top: 0.02em;
+  margin-left: 21%;
+  margin-top: 3em;
   font-family: "oswald", sans-serif;
   font-size: 1.875rem;
 }
@@ -206,9 +203,9 @@ header {
 .nine_eleven_plane_hitting {
   position: absolute;
   display: block;
-  margin-left: 1150px;
-  top: 2050px;
-  width: 578.75px;
+  margin-left: 1050px;
+  top: 211.55vh;
+  width: 30.14vw;
   height: 437px;
   border-radius: 10%;
   filter: drop-shadow(15px 10px 40px black);
@@ -226,6 +223,16 @@ header {
   font-family: "oswald", sans-serif;
   font-size: 1.875rem;
   filter: drop-shadow(15px 10px 40px black);
+}
+
+@media screen and (max-width: 1850px) {
+  .The_US_Moon_landing_Title {
+    margin-top: 30%;
+  }
+
+  .The_US_Moon_landing_TitleFR {
+    margin-top: 30%;
+  }
 }
 
 .The_US_Moon_landing_TitleFR {
@@ -758,8 +765,8 @@ button {
 
 .cipher {
   position: absolute;
-  top: 6670px;
-  left: 8%;
+  top: 6700px;
+  left: 20%;
   padding-left: 31.25em;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -767,10 +774,10 @@ button {
   font-size: 1.5rem;
 }
 
-.cipher_msg {
+.cipher {
   position: absolute;
   top: 6700px;
-  left: 32%;
+  left: 10%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-family: cursive;
@@ -779,29 +786,32 @@ button {
 
 .cipher_img {
   position: absolute;
-  top: 670vh;
-  left: 65%;
-  z-index: 30;
+  top: 6500px;
+  left: 63%;
   width: auto;
-  height: 35%;
+  height: 40%;
+  z-index: 30;
   border-radius: 10px;
-  filter: blur(10px);
+  filter: blur(5px);
+  border: 5px solid black;
   max-width: 100%;
 }
 
 .cipher_img:hover {
   filter: none;
+  margin-top: -45%;
 }
 
 .cipher_imgfr {
   position: absolute;
-  top: 670vh;
-  left: 65%;
-  z-index: 30;
+  top: 6500px;
+  left: 63%;
   width: auto;
-  height: 35%;
+  height: 40%;
+  z-index: 30;
   border-radius: 10px;
-  filter: blur(10px);
+  filter: blur(5px);
+  border: 5px solid black;
   max-width: 100%;
 }
 
@@ -809,16 +819,11 @@ button {
   filter: none;
 }
 
-@media screen and (max-width: 1900px) {
-  .cipher_img {
-    top: 765%;
-  }
-
+@media screen and (max-width: 1850px) {
   .cipher_imgfr {
-    top: 765%;
+    margin-top: 70vh;
   }
 }
-
 
 * {
   height: min-content;
