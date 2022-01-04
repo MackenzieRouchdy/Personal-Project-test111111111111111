@@ -167,7 +167,7 @@ header {
 
 .The_September_11th_Attacks {
   margin-left: 21%;
-  margin-top: 3em;
+  margin-top: 2em;
   font-family: "oswald", sans-serif;
   font-size: 1.875rem;
 }
@@ -799,7 +799,6 @@ button {
 
 .cipher_img:hover {
   filter: none;
-  margin-top: -45%;
 }
 
 .cipher_imgfr {
@@ -821,7 +820,11 @@ button {
 
 @media screen and (max-width: 1850px) {
   .cipher_imgfr {
-    margin-top: 70vh;
+    margin-top: -45%;
+  }
+
+  .cipher_img {
+    margin-top: -45%;
   }
 }
 
